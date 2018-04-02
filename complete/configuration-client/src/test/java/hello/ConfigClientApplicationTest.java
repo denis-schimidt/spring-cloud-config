@@ -35,7 +35,7 @@ public class ConfigClientApplicationTest {
     private ConfigurableEnvironment environment;
 
     @Autowired
-    private MessageRestController controller;
+    private HelloWorldController controller;
 
     @Autowired
     private ContextRefresher refresher;
